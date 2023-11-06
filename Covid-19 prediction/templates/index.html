@@ -6,9 +6,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="charset=utf-8" />
 
-<link href="../css/font-awesome.css" rel="stylesheet"> 
-<link href="../css/style.css" rel="stylesheet"> 
-
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/css/font-awesome.css') }}" />
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/css/style.css') }}" />
 
 <!--fonts-->
 <link href="//fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
@@ -37,13 +36,13 @@
 
 							<ul>
 								<div>
-								<li><a href="index.html">Home</a></li>
+								<li><a href="/">Home</a></li>
 								</div>
 								<div>
-								<li><a href="About.html">About</a></li>
+								<li><a href="/about">About</a></li>
 								</div>
 								<div>
-								<li><a href="Upload.html">Upload</a></li>
+								<li><a href="/upload">Upload</a></li>
 								</div>
 								         <!--including searcgh button--/>
 
@@ -81,7 +80,7 @@
 	<!--Start-banner-info-->
 
 			<section class="banner-info" id="home">
-				<video src="..\images\How COVID-19 Affects Your Lungs(720P_HD).mp4" type="video/mp4" autoplay muted loop></video>
+				<video src="../static/images/How COVID-19 Affects Your Lungs(720P_HD).mp4" type="video/mp4" autoplay muted loop></video>
 				<div class="banner-cont">
 
 				</div>
@@ -108,16 +107,16 @@
 
 					<div class="box-content">
 						<div class="mid-box">
-							<img src="..\images\S1.png">
+							<img src="../static/images/S1.png" alt="S1.png">
 						</div>
 						<div class="mid-box">
-							<img src="..\images\S2.png">
+							<img src="../static/images/S2.png" alt="S2.png">
 						</div>
 						<div class="mid-box">
-							<img src="..\images\S3.png">
+							<img src="../static/images/S3.png" alt="S3.png">
 						</div>
 						<div class="mid-box">
-							<img src="..\images\S5.png">
+							<img src="../static/images/S4.png" alt="S4.png">
 						</div>
 
 					</div>
@@ -142,7 +141,7 @@
 		
 
 
-	<script src="js/jquery-2.2.4.min.js"></script>
+	<script src="../static/js/jquery-2.2.4.min.js"></script>
 
 <script>
 	  $(window).scroll(function(){           //SCROLL function triggered when scrolled                      // add bg color for the nav bar when moved 

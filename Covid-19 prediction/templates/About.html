@@ -1,155 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>C19 detection</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="charset=utf-8" />
+  <head>
+    <title>C19 detection</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="charset=utf-8" />
 
-<link href="../css/font-awesome.css" rel="stylesheet"> 
-<link href="../css/style.css" rel="stylesheet"> 
+    <link href="../static/css/font-awesome.css" rel="stylesheet" />
+    <link href="../static/css/style.css" rel="stylesheet" />
 
-
-<!--fonts-->
-<link href="//fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
-<link href="//fonts.googleapis.com/css?family=Federo" rel="stylesheet">
-<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-<!--//fonts-->
-</head>
-<body>
+    <!--fonts-->
+    <link
+      href="//fonts.googleapis.com/css?family=Oswald:300,400,700"
+      rel="stylesheet"
+    />
+    <link href="//fonts.googleapis.com/css?family=Federo" rel="stylesheet" />
+    <link
+      href="//fonts.googleapis.com/css?family=Lato:300,400,700,900"
+      rel="stylesheet"
+    />
+    <!--//fonts-->
+  </head>
+  <body>
     <!--Start-Fixed Navigation bar-->
-		
-			<section class="navbar-infoab">
-				<div class="container">
-					<div class="navbar-features">
 
-						<!--logo-->
+    <section class="navbar-infoab">
+      <div class="container">
+        <div class="navbar-features">
+          <!--logo-->
 
-							<div class="logo">
-								<a href="#">COVID-19 DETECTION<span>USING CHEST X-RAYS</span></a>
-							</div>
+          <div class="logo">
+            <a href="#">COVID-19 DETECTION<span>USING CHEST X-RAYS</span></a>
+          </div>
 
-						<!--End-logo-->
+          <!--End-logo-->
 
+          <!--navbar-links-used-unordered-list-->
 
-						<!--navbar-links-used-unordered-list-->
-
-							<ul>
-								<div>
-								<li><a href="index.html">Home</a></li>
-								</div>
-								<div>
-								<li><a href="About.html">About</a></li>
-								</div>
-								<div>
-								<li><a href="Upload.html">Upload</a></li>
-								</div>            
-
-
-							</ul>
-
-
-
-
-
-
-						<!--End-navbar-links-used-unordered-list-->
-
-
-
-					</div>
-				</div>
-			</section>
-
-<!--navbar-links-used-unordered-list--> 
-<br>
-<br>
-
-
-                            
-
-
-    <section class="about-info" id="about">
-        <div class="container">
-            <div class="page-headings">
-                <h3>About COVID-19</h3>
-                <p>COVID-19, caused by the SARS-CoV-2 virus, primarily affects the respiratory system, including the lungs. 
-                    It can lead to symptoms like cough, shortness of breath, and pneumonia. 
-                    In severe cases, it can cause acute respiratory distress syndrome (ARDS), which is a life-threatening condition where the lungs become severely inflamed and filled with fluid. 
-                    The virus can also have long-term effects on the lungs, leading to conditions like post-COVID fibrosis.
-                     Protecting yourself with vaccination, wearing masks, and practicing good hygiene can reduce the risk of infection and lung-related complications.</p>
+          <ul>
+            <div>
+              <li><a href="/">Home</a></li>
             </div>
-            
-
-
-            <div class="Steps">
-                <br>
-                <br>
-                
-                <h3>precautionary measures to prevent covid 19</h3>
-
+            <div>
+              <li><a href="/about">About</a></li>
             </div>
-
-            <div class="steps1">  
-
+            <div>
+              <li><a href="/upload">Upload</a></li>
             </div>
-                
+          </ul>
 
-					<div class="box-content">
-						<div class="mid-box">
-							<img src="..\images\SS1.png">
-						</div>
-						<div class="mid-box">
-							<img src="..\images\SS2.png">
-						</div>
-						<div class="mid-box">
-							<img src="..\images\SS3.png">
-						</div>
-						<div class="mid-box">
-							<img src="..\images\SS4.png">
-						</div>
-
-					</div>
-
-				
+          <!--End-navbar-links-used-unordered-list-->
         </div>
+      </div>
     </section>
 
+    <!--navbar-links-used-unordered-list-->
+    <br />
+    <br />
 
-    <script src="js/jquery-2.2.4.min.js"></script>
+    <section class="about-info" id="about">
+      <div class="container">
+        <div class="page-headings">
+          <h3>About COVID-19</h3>
+          <p>
+            COVID-19, caused by the SARS-CoV-2 virus, primarily affects the
+            respiratory system, including the lungs. It can lead to symptoms
+            like cough, shortness of breath, and pneumonia. In severe cases, it
+            can cause acute respiratory distress syndrome (ARDS), which is a
+            life-threatening condition where the lungs become severely inflamed
+            and filled with fluid. The virus can also have long-term effects on
+            the lungs, leading to conditions like post-COVID fibrosis.
+            Protecting yourself with vaccination, wearing masks, and practicing
+            good hygiene can reduce the risk of infection and lung-related
+            complications.
+          </p>
+        </div>
 
-<script>
-	  $(window).scroll(function(){           //SCROLL function triggered when scrolled                      // add bg color for the nav bar when moved 
-	  	  var scroll = $(window).scrollTop();  //Returns: Number. Description: Get the current vertical position of the scroll bar for the first element in the set of matched elements
-		  if (scroll > 10) {
-		    $('.navbar-info').addClass('bg-scrolling');
-		  }
+        <div class="Steps">
+          <br />
+          <br />
 
-		  else{
-			$('.navbar-info').removeClass('bg-scrolling'); 	
-		  }
-  	  })
-</script>
+          <h3>precautionary measures to prevent covid 19</h3>
+        </div>
 
+        <div class="steps1"></div>
 
-<script>
-	// Select all »a« elements with a parent class »links« and add a function that is executed on click
-$( '.navbar-features a, .banner-info a' ).on( 'click', function(e){
-	
-	// Define variable of the clicked »a« element (»this«) and get its href value.
-	var href = $(this).attr( 'href' );
-	
-	// Run a scroll animation to the position of the element which has the same id like the href value.
-	$( 'html, body' ).animate({
-		  scrollTop: $( href ).offset().top
-	}, '10' ); /// 300 milliseconds 
-	  
-	// Prevent the browser from showing the attribute name of the clicked link in the address bar
-	e.preventDefault();
-  
-  });
-</script>
+        <div class="box-content">
+          <div class="mid-box">
+            <img src="../static/images/SS1.png" alt="SS1.png" />
+          </div>
+          <div class="mid-box">
+            <img src="../static/images/SS2.png" alt="SS2.png" />
+          </div>
+          <div class="mid-box">
+            <img src="../static/images/SS3.png" alt="SS3.png" />
+          </div>
+          <div class="mid-box">
+            <img src="../static/images/SS4.png" alt="SS4.png" />
+          </div>
+        </div>
+      </div>
+    </section>
 
-</body>
+    <script src="../static/js/jquery-2.2.4.min.js"></script>
+
+    <script>
+      $(window).scroll(function () {
+        //SCROLL function triggered when scrolled                      // add bg color for the nav bar when moved
+        var scroll = $(window).scrollTop(); //Returns: Number. Description: Get the current vertical position of the scroll bar for the first element in the set of matched elements
+        if (scroll > 10) {
+          $(".navbar-info").addClass("bg-scrolling");
+        } else {
+          $(".navbar-info").removeClass("bg-scrolling");
+        }
+      });
+    </script>
+
+    <script>
+      // Select all »a« elements with a parent class »links« and add a function that is executed on click
+      $(".navbar-features a, .banner-info a").on("click", function (e) {
+        // Define variable of the clicked »a« element (»this«) and get its href value.
+        var href = $(this).attr("href");
+
+        // Run a scroll animation to the position of the element which has the same id like the href value.
+        $("html, body").animate(
+          {
+            scrollTop: $(href).offset().top,
+          },
+          "10"
+        ); /// 300 milliseconds
+
+        // Prevent the browser from showing the attribute name of the clicked link in the address bar
+        e.preventDefault();
+      });
+    </script>
+  </body>
 </html>
-
-
